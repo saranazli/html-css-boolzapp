@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* UTILITIES */
+.flex{
+  display: flex;
+}
+
+.center{
+  justify-content: center;
+  align-items: center;
+}
+
+.debug{
+  border: 1px solid black;
+}
+
+/*GENERAL*/
+main{
+  height: 100vh;
+  background-color: rgba(0,150,136,255);
+}
+
+.conteiner{
+  width: 90%;
+  height: 80%;
+}
+
+/* MAIN /*
+
