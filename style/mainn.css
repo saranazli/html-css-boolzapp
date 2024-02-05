@@ -1,7 +1,10 @@
 :root{
+  --bg-top: rgba(0,150,136,255);
+  --bg-bottom: rgba(214,219,216,255);
   --grey-head: rgba(234,234,234,255);
   --azur-color: rgba(142,218,252,255);
   --light-grey: rgba(250,250,250,255);
+  --dark-grey: rgba(177,177,177,255);
 }
 
 *{
@@ -20,6 +23,14 @@
   align-items: center;
 }
 
+.j-c-between{
+  justify-content: space-between;
+}
+
+.j-c-around{
+  justify-content: space-around;
+}
+
 .debug{
   border: 1px solid black;
 }
@@ -28,10 +39,29 @@
   background-color: white;
 }
 
+.in{
+  width: 100%;
+  height: 100%;
+}
+
+.b-r{
+  border-radius: 50%;
+}
+
+.icons{
+  color: var(--dark-grey);
+  font-size: 1.5rem;;
+  width: 35%;
+}
+
 /*GENERAL*/
 main{
   height: 100vh;
-  background-color: rgba(243,165,163,255);
+  background: linear-gradient(
+    to top,
+    #d9dbd5 80%,
+    #009688 20%
+  );
 }
 
 .conteiner{
@@ -108,4 +138,11 @@ main{
 }
 
 
-/* contenents */
+/* CONTENETS */
+
+.avatar{
+  width: 55px;
+  height: 55px;
+  overflow: hidden;
+}
+
