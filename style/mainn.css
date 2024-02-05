@@ -11,6 +11,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* UTILITIES */
@@ -36,6 +39,10 @@
   justify-content: space-around;
 }
 
+.a-i{
+  align-items: center;
+}
+
 .bg-white{
   background-color: white;
 }
@@ -49,8 +56,19 @@
   padding-left: 10px;
 }
 
+.m-l{
+  margin-left: 10px;
+}
+
+.m-t{
+  margin-top: 5px;
+}
 .b-r{
   border-radius: 50%;
+}
+
+.line{
+  line-height: 15px;
 }
 
 /*GENERAL*/
@@ -75,7 +93,7 @@ main{
   width: 35%;
 }
 
-.avatar{
+.avatar, .notice-bell{
   width: 55px;
   height: 55px;
   overflow: hidden;
@@ -154,7 +172,7 @@ main{
 /* CONTENETS */
 
 
-h8.who-access{
+h4.who-access{
   color: var(--dark-grey);
 }
 
@@ -162,7 +180,15 @@ h8.who-access{
   width: 15%;
 }
 
+.notice-bell{
+  color: var(--azur-color);
+  font-size: 20px;
+}
 
+h4.notice-set{
+  opacity: 0.6;
+  text-decoration: underline;
+}
 
 /* MEDIA QUERY */
 
