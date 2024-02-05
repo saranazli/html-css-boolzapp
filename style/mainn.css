@@ -41,6 +41,8 @@ main{
 
 /* MAIN */
 
+/* my boxes */
+
 .row.head{
   background-color: var(--grey-head);
   height: 8%;
@@ -72,3 +74,14 @@ main{
   width: 95%;
   height: 80%;
 }
+
+.chat-section{
+  height: 79%;
+  overflow: scroll;
+}
+.chat{
+  width: 100%;
+  height: 15%;
+}
+
+/* contenents */
