@@ -35,8 +35,8 @@ main{
 }
 
 .conteiner{
-  width: 85%;
-  height: 830px;
+  width: 1300px;
+  height: 800px;
 }
 
 /* MAIN */
@@ -46,10 +46,12 @@ main{
 .row.head{
   background-color: var(--grey-head);
   height: 8%;
+  width: 100%;
 }
 
 .row.foot{
   height: 92%;
+  width: 100%;
 }
 
 .col.left{
@@ -57,9 +59,16 @@ main{
   height: 100%;
 }
 
+.col.right{
+  width: 70%;
+  height: 100%;
+}
+
 .col.left.down{
   background-color: var(--light-grey);
 }
+
+  /* col left*/
 
 .notice{
   height: 13%;
@@ -77,11 +86,26 @@ main{
 
 .chat-section{
   height: 79%;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 .chat{
   width: 100%;
   height: 15%;
 }
+
+  /*col right */
+
+.talk-section{
+  background-image: url(../img/mine.jpg);
+  height: 87%;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.write-section{
+  height: 13%;
+  background-color: var(--light-grey);
+}
+
 
 /* contenents */
