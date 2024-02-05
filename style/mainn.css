@@ -1,3 +1,9 @@
+:root{
+  --grey-head: rgba(234,234,234,255);
+  --azur-color: rgba(142,218,252,255);
+  --light-grey: rgba(250,250,250,255);
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -18,16 +24,51 @@
   border: 1px solid black;
 }
 
+.bg-white{
+  background-color: white;
+}
+
 /*GENERAL*/
 main{
   height: 100vh;
-  background-color: rgba(0,150,136,255);
+  background-color: rgba(243,165,163,255);
 }
 
 .conteiner{
-  width: 90%;
-  height: 80%;
+  width: 85%;
+  height: 830px;
 }
 
-/* MAIN /*
+/* MAIN */
 
+.row.head{
+  background-color: var(--grey-head);
+  height: 8%;
+}
+
+.row.foot{
+  height: 92%;
+}
+
+.col.left{
+  width: 30%;
+  height: 100%;
+}
+
+.col.left.down{
+  background-color: var(--light-grey);
+}
+
+.notice{
+  height: 13%;
+  background-color: var(--azur-color);
+}
+
+.search-cont{
+  height: 8%;
+}
+
+.search{
+  width: 95%;
+  height: 80%;
+}
