@@ -5,6 +5,8 @@
   --azur-color: rgba(142,218,252,255);
   --light-grey: rgba(250,250,250,255);
   --dark-grey: rgba(177,177,177,255);
+  --sent-msg: rgba(213,249,186,255);
+  --received: rgba(255,255,255,255);
 }
 
 *{
@@ -106,7 +108,7 @@ main{
 
 .row.head{
   background-color: var(--grey-head);
-  height: 8%;
+  height: 70px;
   width: 100%;
 }
 
@@ -162,6 +164,8 @@ main{
   height: 87%;
   width: 100%;
   overflow-y: scroll;
+  padding: 60px 40px;
+  flex-direction: column;
 }
 
 .write-section{
@@ -181,6 +185,8 @@ h4.who-access{
   width: 15%;
 }
 
+  /* --- */
+
 .notice-bell{
   color: var(--azur-color);
   font-size: 20px;
@@ -190,6 +196,8 @@ h4.notice-set{
   opacity: 0.6;
   text-decoration: underline;
 }
+
+  /* -- */
 
 .search-bar{
   width: 90%;
@@ -209,9 +217,33 @@ h4.notice-set{
   color: var(--dark-grey);
 }
 
+  /* ---- */
+
 .time{
   opacity: 0.6;
+  padding-right: 15px;
+  padding-top: 10px;
 }
+
+  /* ----- */
+
+.msg{
+  width: 430px;
+  height: 130px;
+  border-radius: 25px;
+}
+
+.sent.msg{
+  background-color: var(--sent-msg);
+}
+
+.received.msg{
+  background-color: var(--received);
+}
+
+
+
+
 
 /* MEDIA QUERY */
 
