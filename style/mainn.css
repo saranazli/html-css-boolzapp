@@ -142,7 +142,8 @@ main{
 
 .search{
   width: 95%;
-  height: 80%;
+  height: 70%;
+  margin-right: 5px;
 }
 
 .chat-section{
@@ -188,6 +189,24 @@ h4.who-access{
 h4.notice-set{
   opacity: 0.6;
   text-decoration: underline;
+}
+
+.search-bar{
+  width: 90%;
+  height: 100%;
+}
+
+.bar{
+  width: 100%;
+  height: 100%;
+  color: var(--dark-grey);
+  opacity: 0.6;
+  border: none;
+}
+
+.fa-magnifying-glass.search-b{
+  width: 10%;
+  color: var(--dark-grey);
 }
 
 .time{
