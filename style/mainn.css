@@ -227,10 +227,20 @@ h4.notice-set{
 
   /* ----- */
 
+.msg-row{
+  height: 130px;
+  width: 100%;
+}
+
+.msg-row.r-m{
+  justify-content: end;
+}
+
 .msg{
   width: 430px;
-  height: 130px;
+  height: 100%;
   border-radius: 25px;
+  padding: 15px;
 }
 
 .sent.msg{
@@ -241,6 +251,19 @@ h4.notice-set{
   background-color: var(--received);
 }
 
+.chat-chevron-time{
+  width: 5%;
+  height: 100%;
+  flex-direction: column;
+}
+
+.time.chat-h{
+  font-size: .8rem;
+}
+
+.fa-chevron-down{
+  color: var(--dark-grey);
+}
 
 
 
