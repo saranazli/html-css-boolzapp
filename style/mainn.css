@@ -190,6 +190,10 @@ h4.notice-set{
   text-decoration: underline;
 }
 
+.time{
+  opacity: 0.6;
+}
+
 /* MEDIA QUERY */
 
   /* TABLET */ 
